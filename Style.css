@@ -1,7 +1,22 @@
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: url("Fonts/MerriweatherSans-Italic-VariableFont_wght.ttf") format("ttf"),
+         url("Fonts/MerriweatherSans-VariableFont_wght.ttf") format("ttf");
+  }
+  
 body{
     background-color:white;
-    font-family: 'Merriweather Sans',Verdana, Geneva, Tahoma, sans-serif;
-    size: 30;
+    font-family: 'MerriweatherSans-VariableFont_wght';
+    size: 13;
+}
+
+.logo{
+    display: block;
+    margin: 0px auto;
+}
+
+.logo{
+    width: 13%;
 }
 
 nav li {
@@ -9,7 +24,7 @@ nav li {
 }
 
 nav a {
-    color:black;
+    color:white;
     text-decoration: none;
     padding: 30px;
 }
@@ -18,8 +33,16 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.logo{
-    max-width: 300px;
-    width: 50%;
+nav {grid-area: mynav; background: #203C71;
+    height: 40px;}
+
+.topphoto{
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+    padding: 20px;
 }
+
+
+
 
